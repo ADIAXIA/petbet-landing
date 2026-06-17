@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PetBet — Conoce a tu mascota como nunca antes</title>
+<meta name="description" content="Descubre la raza, edad y estado de ánimo de tu mascota con IA. Virtual Vet incluido. Disponible para Android e iOS.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="nav-brand">
+      <span class="nav-paw">🐾</span> PetBet
+    </div>
+    <div class="nav-links">
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#premium">Premium</a>
+      <a href="#faq">Preguntas</a>
+    </div>
+    <a href="#descargar" class="nav-cta">Descargar</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <div class="hero-eyebrow">Análisis de mascotas con IA</div>
+      <h1>Tu mascota tiene<br><span class="hero-highlight">una historia.</span><br>Te ayudamos a leerla.</h1>
+      <p class="hero-sub">Apunta la cámara. PetBet detecta raza, edad y estado de ánimo al instante — y si algo anda mal, nuestro Virtual Vet te dice qué hacer.</p>
+      <div class="hero-actions">
+        <a href="#descargar" class="btn btn-primary">
+          <span class="btn-icon">📲</span> Descargar gratis
+        </a>
+        <a href="#como-funciona" class="btn btn-ghost">Ver cómo funciona</a>
+      </div>
+      <div class="hero-trust">
+        <div class="trust-item"><strong>3</strong> análisis gratis al día</div>
+        <div class="trust-dot"></div>
+        <div class="trust-item">Disponible en español e inglés</div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="scan-card" id="scanCard">
+        <div class="scan-photo">
+          <div class="scan-ring" id="scanRing"></div>
+          <span class="scan-emoji">🐕</span>
+        </div>
+        <div class="scan-results" id="scanResults">
+          <div class="scan-row" data-delay="1">
+            <span class="scan-label">RAZA</span>
+            <span class="scan-value">Golden Retriever</span>
+          </div>
+          <div class="scan-row" data-delay="2">
+            <span class="scan-label">EDAD</span>
+            <span class="scan-value">2 años, 3 meses</span>
+          </div>
+          <div class="scan-row" data-delay="3">
+            <span class="scan-label">ÁNIMO</span>
+            <span class="scan-badge">😊 Feliz</span>
+          </div>
+        </div>
+      </div>
+      <div class="float-paw float-paw-1">🐾</div>
+      <div class="float-paw float-paw-2">🐾</div>
+    </div>
+  </div>
+</header>
+
+<section class="logos">
+  <p>Funciona con perros, gatos y cualquier mascota que ames</p>
+  <div class="logos-row">
+    <span>🐕</span><span>🐈</span><span>🐰</span><span>🦜</span><span>🐹</span><span>🐢</span>
+  </div>
+</section>
+
+<section class="how" id="como-funciona">
+  <div class="section-head">
+    <div class="section-eyebrow">Cómo funciona</div>
+    <h2>Tres pasos. Cero adivinanzas.</h2>
+  </div>
+
+  <div class="how-grid">
+    <div class="how-card">
+      <div class="how-icon">📸</div>
+      <h3>Toma la foto</h3>
+      <p>De frente, con buena luz. PetBet te guía para que la primera vez salga bien.</p>
+    </div>
+    <div class="how-card how-card-accent">
+      <div class="how-icon">🧠</div>
+      <h3>La IA analiza</h3>
+      <p>Raza, edad estimada y estado de ánimo en segundos, mirando lo que un veterinario miraría: ojos, pelaje, postura.</p>
+    </div>
+    <div class="how-card">
+      <div class="how-icon">🩺</div>
+      <h3>Describe síntomas</h3>
+      <p>¿Algo raro? Cuéntale a Virtual Vet y recibe orientación clara sobre qué hacer.</p>
+    </div>
+  </div>
+</section>
+
+<section class="feature-split">
+  <div class="feature-split-inner">
+    <div class="feature-visual">
+      <div class="lost-card">
+        <div class="lost-badge">📍 Mascota encontrada</div>
+        <div class="lost-row"><span>Coincidencia</span><strong>Conan</strong></div>
+        <div class="lost-row"><span>Confianza</span><strong>Alta</strong></div>
+        <div class="lost-email">✉️ Dueño notificado por correo</div>
+      </div>
+    </div>
+    <div class="feature-copy">
+      <div class="section-eyebrow">Registro de mascotas perdidas</div>
+      <h2>Si se extravía, PetBet ayuda a encontrarla.</h2>
+      <p>Registra a tu mascota una vez. Si alguien la encuentra y la escanea con PetBet, la IA compara la foto y te avisa por correo al instante — sin chips, sin placas, sin esperar.</p>
+      <ul class="feature-list">
+        <li>Comparación visual automática por IA</li>
+        <li>Notificación directa al dueño registrado</li>
+        <li>Funciona con cualquier mascota, no solo perros y gatos</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="premium" id="premium">
+  <div class="premium-card">
+    <div class="premium-glow"></div>
+    <div class="premium-content">
+      <div class="premium-crown">👑</div>
+      <h2>PetBet Premium</h2>
+      <div class="premium-price"><span class="premium-amount">$5</span><span class="premium-period">/mes</span></div>
+      <p class="premium-sub">Cancela cuando quieras. Sin compromisos.</p>
+      <ul class="premium-list">
+        <li><span class="check">✓</span> Análisis ilimitados</li>
+        <li><span class="check">✓</span> Virtual Vet sin límites</li>
+        <li><span class="check">✓</span> Registro de mascota extraviada</li>
+        <li><span class="check">✓</span> Sin anuncios</li>
+      </ul>
+      <a href="#descargar" class="btn btn-premium">Probar Premium</a>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="section-head">
+    <div class="section-eyebrow">Preguntas frecuentes</div>
+    <h2>Lo que la gente pregunta</h2>
+  </div>
+  <div class="faq-list">
+    <details class="faq-item">
+      <summary>¿PetBet reemplaza a un veterinario real?</summary>
+      <p>No. Virtual Vet te ayuda a entender qué podría estar pasando y cuándo preocuparte, pero siempre recomendamos visitar a un veterinario para diagnósticos y tratamientos reales.</p>
+    </details>
+    <details class="faq-item">
+      <summary>¿Qué tan precisa es la detección de edad y raza?</summary>
+      <p>Nuestra IA observa dientes, ojos, pelaje y proporciones corporales para dar una estimación lo más cercana posible. Con razas mixtas, puede mostrar más de una posibilidad.</p>
+    </details>
+    <details class="faq-item">
+      <summary>¿Mis fotos y datos están seguros?</summary>
+      <p>Sí. Nunca vendemos ni compartimos tu información con terceros. Tus fotos se usan únicamente para el análisis y puedes borrar tu cuenta y datos cuando quieras.</p>
+    </details>
+    <details class="faq-item">
+      <summary>¿Funciona con animales que no son perros o gatos?</summary>
+      <p>El análisis de raza, edad y ánimo está optimizado para perros y gatos. El registro de mascota extraviada funciona con cualquier animal.</p>
+    </details>
+  </div>
+</section>
+
+<section class="cta-final" id="descargar">
+  <h2>Tu mascota está esperando<br>que la conozcas mejor.</h2>
+  <div class="store-buttons">
+    <a href="#" class="store-btn">
+      <span class="store-icon">▶</span>
+      <span class="store-text"><small>Disponible en</small><strong>Google Play</strong></span>
+    </a>
+    <a href="#" class="store-btn">
+      <span class="store-icon"></span>
+      <span class="store-text"><small>Disponible en</small><strong>App Store</strong></span>
+    </a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">🐾 PetBet</div>
+    <p class="footer-tagline">Conoce a tu mascota como nunca antes.</p>
+    <p class="footer-copy">© 2026 PetBet · AdiaX LLC · PetBet nunca vende tu información personal.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
