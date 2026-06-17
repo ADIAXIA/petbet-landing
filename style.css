@@ -373,8 +373,8 @@ ul { list-style: none; }
   background: var(--brown-deep);
 }
 
-.how-card-accent h3, .how-card-accent p { color: var(--cream); }
-.how-card-accent p { opacity: 0.85; }
+.how-card-accent h3 { color: var(--white); }
+.how-card-accent p { color: var(--white); opacity: 0.92; }
 
 .how-icon {
   font-size: 34px;
