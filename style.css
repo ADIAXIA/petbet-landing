@@ -370,7 +370,7 @@ ul { list-style: none; }
 .how-card:hover { transform: translateY(-4px); }
 
 .how-card-accent {
-  background: var(--brown-deep);
+  background: var(--white);
 }
 
 .how-card-accent h3 { color: var(--white); }
