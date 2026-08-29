@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>You're Premium! — PetBet</title>
+<meta name="description" content="Your PetBet Premium subscription is active.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(160deg, #fff8ef 0%, #ffe9d6 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .card {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 48px 40px;
+    max-width: 440px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+  }
+  .crown {
+    font-size: 56px;
+    margin-bottom: 8px;
+  }
+  h1 {
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 28px;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+  }
+  p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 28px;
+  }
+  .features {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 32px;
+  }
+  .features li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+    color: #333;
+    font-size: 15px;
+  }
+  .check {
+    color: #22c55e;
+    font-weight: 700;
+  }
+  .btn {
+    display: inline-block;
+    background: #0074d4;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 14px 32px;
+    border-radius: 999px;
+    font-size: 16px;
+    transition: transform 0.15s ease;
+  }
+  .btn:active {
+    transform: scale(0.97);
+  }
+  .footnote {
+    margin-top: 24px;
+    font-size: 13px;
+    color: #999;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="crown">👑</div>
+    <h1>You're Premium!</h1>
+    <p>Your payment went through and PetBet Premium is now active on your account.</p>
+    <ul class="features">
+      <li><span class="check">✓</span> Unlimited scans</li>
+      <li><span class="check">✓</span> Unlimited Virtual Vet</li>
+      <li><span class="check">✓</span> Lost pet registry</li>
+      <li><span class="check">✓</span> No ads</li>
+    </ul>
+    <a href="#" class="btn" onclick="window.close(); return false;">Back to PetBet</a>
+    <p class="footnote">You can safely close this tab and return to the app.</p>
+  </div>
+</body>
+</html>
